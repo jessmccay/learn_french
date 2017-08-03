@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>French translation:</strong>
+  <%= @translation.french_translation %>
+</p>
+
+<p>
+  <strong>English translation:</strong>
+  <%= @translation.english_translation %>
+</p>
+
+<%= link_to 'Edit', edit_translation_path(@translation) %> |
+<%= link_to 'Back', translations_path %>
